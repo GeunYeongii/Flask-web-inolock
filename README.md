@@ -1,3 +1,23 @@
+## 📌 Structure
+```
+.
+├── app
+│   ├── configs.py
+│   ├── constants.py
+│   ├── __init__.py
+│   ├── introduction
+│   │   ├── case.py
+│   │   └── product.py
+│   │
+│   ├── model.py
+│   ├── static
+│   ├── templates
+│   └── test.py
+├── env
+├── run.py
+└── zappa_settings.json
+```
+
 ## 📌 Usage
 ```python
 $ git clone https://github.com/GeunYeongii/Flask-web-inolock.git

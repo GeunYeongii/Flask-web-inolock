@@ -1,0 +1,135 @@
+{% extends "layout.html" %}
+{% block head %} 
+	{{ super() }} 
+{% endblock %}
+
+
+{% block content %} 
+		<!-- Page Title
+                    
+		============================================= -->
+		<a><img src="{{ url_for('static', filename='images/product/7/banner.jpg') }}"></a>
+
+
+	</section><!-- #page-title end -->
+	{% include 'sub_menu.html' %}
+	
+<!-- Content
+		============================================= -->
+		<section id="content">  
+			<div class="content-wrap">
+                <center><img src="{{ url_for('static', filename='images/product/7/txt07.jpg') }}"></center>
+                <br>
+                <br>
+				<div class="container clearfix">
+
+					<div class="grid-filter-wrap">
+
+						<!-- Portfolio Filter
+						============================================= -->
+						<ul class="grid-filter" data-container="#portfolio">
+							<li class="activeFilter"><a href="#" data-filter="*">모두 보기</a></li>
+							<li><a href="#" data-filter=".pf-1col">기타제품</a></li>
+						</ul><!-- .grid-filter end -->
+
+						<div class="grid-shuffle rounded" data-container="#portfolio">
+							<i class="icon-random"></i>
+						</div>
+
+					</div>
+
+					<!-- Portfolio Items
+					============================================= -->
+					<div id="portfolio" class="portfolio row grid-container gutter-20" data-layout="fitRows">
+						<!-- Portfolio Item: Start -->
+						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-media pf-1col">
+							<!-- Grid Inner: Start -->
+							<div class="grid-inner">
+								<!-- Image: Start -->
+								<div class="portfolio-image">
+									<a href="portfolio-single.html">
+										<img src="{{ url_for('static', filename='images/product/7/cage/coin.jpg') }}" alt="Open Imagination">
+									</a>
+									<!-- Overlay: Start -->
+									<div class="bg-overlay">
+										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+											<!-- Decription: Start -->
+											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                                <h3><a href="portfolio-single-gallery.html">동전 교환기</a></h3>
+											</div>
+
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+									</div>
+									<!-- Overlay: End -->
+								</div>
+								<!-- Image: End -->
+							</div>
+							<!-- Grid Inner: End -->
+                            <center><strong>동전 교환기</strong></center>
+						</article>
+						<!-- Portfolio Item: End -->
+
+
+
+                        <!-- 1열  -->
+						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-1col">
+							<div class="grid-inner">
+								<div class="portfolio-image">
+									<a href="portfolio-single.html">
+										<img src="{{ url_for('static', filename='images/product/7/cage/pet.jpg') }}" alt="Locked Steel Gate">
+									</a>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                                <h3><a href="portfolio-single-gallery.html">애견 보관함</a></h3>
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+									</div>
+								</div>
+							</div>
+                            <center><strong>애견 보관함</strong></center>
+						</article>
+
+						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-1col">
+							<div class="grid-inner">
+								<div class="portfolio-image">
+									<a href="portfolio-single.html">
+										<img src="{{ url_for('static', filename='images/product/7/cage/cash.jpg') }}" alt="Locked Steel Gate">
+									</a>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                                <h3><a href="portfolio-single-gallery.html">지폐 교환기</a></h3>
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+									</div>
+								</div>
+							</div>
+                            <center><strong>지폐 교환기</strong></center>
+						</article>
+
+						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-1col">
+							<div class="grid-inner">
+								<div class="portfolio-image">
+									<a href="portfolio-single.html">
+										<img src="{{ url_for('static', filename='images/product/7/cage/tillbox.jpg') }}" alt="Locked Steel Gate">
+									</a>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                                <h3><a href="portfolio-single-gallery.html">틸박스</a></h3>
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+									</div>
+								</div>
+							</div>
+                            <center><strong>틸박스</strong></center>
+						</article>
+
+                    </div>
+				</div>
+			</div>
+		</section><!-- #content end -->
+
+{% endblock%} 

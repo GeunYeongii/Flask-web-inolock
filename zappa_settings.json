@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "app_function": "app.__init__.app",
+        "aws_region": "ap-northeast-2",
+        "profile_name": "default",
+        "project_name": "inolock-web",
+        "runtime": "python3.8",
+        "s3_bucket": "zappa-inolock"
+    }
+}

@@ -34,4 +34,6 @@ C:\[Path\to\project]> env\Scripts\activate.bat
 </p>
 
 ## 📌 Demo site
+Deploying a Flask app Demo on AWS Lambda with Zappa  
+
 🔗 [Demo site link](https://sn9pw7av47.execute-api.ap-northeast-2.amazonaws.com/dev)

@@ -28,12 +28,13 @@ $ pip install virtualenv
 - Linux/macOS
 ```
 $ source env/bin/activate
-$ python run.py
+$ (env) python run.py
 ```
 
 - Windows
 ```
 C:\[Path\to\project]> env\Scripts\activate.bat
+(env) C:\[Path\to\project]> python run.py
 ```
 
 > deactivate virtualenv : commant to ```deactivate```
@@ -56,4 +57,9 @@ C:\[Path\to\project]> env\Scripts\activate.bat
 ## 📌 Demo site
 Deploying a Flask app Demo on AWS Lambda with Zappa  
 
-🔗 [Demo site link](https://sn9pw7av47.execute-api.ap-northeast-2.amazonaws.com/dev)
+🔗 [Demo site link](https://rgb3xxlq7l.execute-api.ap-northeast-2.amazonaws.com/dev)
+
+## 📌 Deploy update
+```
+(env) $ zappa update
+```

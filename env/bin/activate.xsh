@@ -28,7 +28,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"/home/gnyii/workspace/Inolock-web/env"
+$VIRTUAL_ENV = r"/home/gnyii/workspace/Flask-web-inolock/env"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]

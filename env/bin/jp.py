@@ -1,4 +1,4 @@
-#!/home/gnyii/workspace/Inolock-web/env/bin/python
+#!/home/gnyii/workspace/Flask-web-inolock/env/bin/python
 
 import sys
 import json

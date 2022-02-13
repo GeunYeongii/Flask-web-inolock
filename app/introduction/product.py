@@ -3,14 +3,20 @@ from app.constants import PROD_PREFIX
 
 product = Blueprint('product', __name__, url_prefix=PROD_PREFIX)
 
+def variables(request):
+        url_parts = request.path.split('/')
+        return {
+            'url_part_1': url_parts[1],
+        }
+
 @product.route('/', methods=['GET'])
 @product.route('/no_person', methods=['GET'])
 def product_main() :
-    return render_template('product/introduction/no_person.html')
+    return render_template('product/introduction/no_person.html', url_parts=1)
 
 @product.route('/plastic', methods=['GET'])
 def plastic() :
-    return render_template('product/introduction/plastic.html')
+    return render_template('product/introduction/plastic.html', url_parts="product")
 
 @product.route('/iLock', methods=['GET'])
 def iLock() :
@@ -35,3 +41,5 @@ def ect() :
 @product.route('/lock_system', methods=['GET'])
 def lock_system() :
     return render_template('product/introduction/lock_system.html')
+
+

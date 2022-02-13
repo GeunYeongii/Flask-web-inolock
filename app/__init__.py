@@ -1,4 +1,6 @@
 from crypt import methods
+from struct import calcsize
+from subprocess import CalledProcessError
 from flask import Flask, render_template
 from flask_cors import CORS
 from app.configs import Config
@@ -17,6 +19,8 @@ def index():
 
 from app.test import test
 from app.introduction.product import product
+from app.introduction.case import case
 
 app.register_blueprint(test)
 app.register_blueprint(product)
+app.register_blueprint(case)

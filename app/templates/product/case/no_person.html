@@ -1,0 +1,204 @@
+{% extends "layout.html" %}
+
+
+
+
+{% block content %} 
+
+	<section>
+		<!-- Page Title            
+		============================================= -->
+		<a><img src="{{ url_for('static', filename='images/product/1/banner.jpg') }}"></a>
+
+
+	</section><!-- #page-title end -->
+	{% include 'sub_menu_case.html' %}
+<!-- Content
+		============================================= -->
+		<section id="content">  
+			<div class="content-wrap">
+				<div class="container clearfix">
+
+					<!-- Portfolio Items
+					============================================= -->
+					<div id="portfolio" class="portfolio row grid-container gutter-20" data-layout="fitRows">
+						<!-- Portfolio Item: Start -->
+						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-media pf-1col">
+							<!-- Grid Inner: Start -->
+							<div class="grid-inner">
+								<!-- Image: Start -->
+								<div class="portfolio-image">
+									<a href="portfolio-single.html">
+										<img src="{{ url_for('static', filename='images/product/1/case/1.jpg') }}" alt="Open Imagination">
+									</a>
+									<!-- Overlay: Start -->
+									<div class="bg-overlay">
+										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+											<!-- Decription: Start -->
+											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                                <h3><a href="portfolio-single-gallery.html">1열 3단</a></h3>
+											</div>
+
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+									</div>
+									<!-- Overlay: End -->
+								</div>
+								<!-- Image: End -->
+							</div>
+							<!-- Grid Inner: End -->
+                            <center><strong>1열 3단</strong></center>
+						</article>
+						<!-- Portfolio Item: End -->
+
+
+
+                        <!-- 1열  -->
+						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-1col">
+							<div class="grid-inner">
+								<div class="portfolio-image">
+									<a href="portfolio-single.html">
+										<img src="{{ url_for('static', filename='images/product/1/case/2.jpg') }}" alt="Locked Steel Gate">
+									</a>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                                <h3><a href="portfolio-single-gallery.html">1열 4단</a></h3>
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+									</div>
+								</div>
+							</div>
+                            <center><strong>1열 4단</strong></center>
+						</article>
+                        <article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-1col">
+							<div class="grid-inner">
+								<div class="portfolio-image">
+									<a href="portfolio-single.html">
+										<img src="{{ url_for('static', filename='images/product/1/case/3.jpg') }}" alt="Locked Steel Gate">
+									</a>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                                <h3><a href="portfolio-single-gallery.html">1열 5단</a></h3>
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+									</div>
+								</div>
+							</div>
+                            <center><strong>1열 5단</strong></center>
+						</article>
+                        <article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-1col">
+							<div class="grid-inner">
+								<div class="portfolio-image">
+									<a href="portfolio-single.html">
+										<img src="{{ url_for('static', filename='images/product/1/case/4.jpg') }}" alt="Locked Steel Gate">
+									</a>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                                <h3><a href="portfolio-single-gallery.html">1열 6단</a></h3>
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+									</div>
+								</div>
+							</div>
+                            <center><strong>1열 6단</strong></center>
+						</article>
+
+                        <!-- 3열  -->
+						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-icons pf-2col">
+							<div class="grid-inner">
+								<div class="portfolio-image">
+									<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
+										<div class="flexslider">
+											<div class="slider-wrap">
+												<div class="slide"><a href="portfolio-single-gallery.html"><img src="{{ url_for('static', filename='images/product/1/case/5.jpg') }}" alt="Morning Dew"></a></div>
+											</div>
+										</div>
+									</div>
+									<div class="bg-overlay" data-lightbox="gallery">
+										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                                <h3><a href="portfolio-single-gallery.html">2열 3단</a></h3>
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+									</div>
+								</div>
+							</div>
+                            <center><strong>2열 3단</strong></center>
+						</article>
+
+                        
+						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-icons pf-2col">
+							<div class="grid-inner">
+								<div class="portfolio-image">
+									<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
+										<div class="flexslider">
+											<div class="slider-wrap">
+												<div class="slide"><a href="portfolio-single-gallery.html"><img src="{{ url_for('static', filename='images/product/1/case/6.jpg') }}" alt="Morning Dew"></a></div>
+											</div>
+										</div>
+									</div>
+									<div class="bg-overlay" data-lightbox="gallery">
+										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                                <h3><a href="portfolio-single-gallery.html">2열 4단</a></h3>
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+									</div>
+								</div>
+							</div>
+                            <center><strong>2열 4단</strong></center>
+						</article>
+                        
+						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-icons pf-2col">
+							<div class="grid-inner">
+								<div class="portfolio-image">
+									<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
+										<div class="flexslider">
+											<div class="slider-wrap">
+												<div class="slide"><a href="portfolio-single-gallery.html"><img src="{{ url_for('static', filename='images/product/1/case/7.jpg') }}" alt="Morning Dew"></a></div>
+											</div>
+										</div>
+									</div>
+									<div class="bg-overlay" data-lightbox="gallery">
+										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                                <h3><a href="portfolio-single-gallery.html">2열 5단</a></h3>
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+									</div>
+								</div>
+							</div>
+                            <center><strong>2열 5단</strong></center>
+						</article>
+                        
+						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-icons pf-2col">
+							<div class="grid-inner">
+								<div class="portfolio-image">
+									<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
+										<div class="flexslider">
+											<div class="slider-wrap">
+												<div class="slide"><a href="portfolio-single-gallery.html"><img src="{{ url_for('static', filename='images/product/1/case/8.jpg') }}" alt="Morning Dew"></a></div>
+											</div>
+										</div>
+									</div>
+									<div class="bg-overlay" data-lightbox="gallery">
+										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                                <h3><a href="portfolio-single-gallery.html">2열 6단</a></h3>
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+									</div>
+								</div>
+							</div>
+                            <center><strong>2열 6단</strong></center>
+						</article>
+                    </div>
+				</div>
+			</div>
+		</section><!-- #content end -->
+
+
+{% endblock%} 

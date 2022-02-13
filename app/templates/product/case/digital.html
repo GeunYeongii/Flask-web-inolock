@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block head %} 
+	{{ super() }} 
+{% endblock %}
+
+
+{% block content %} 
+	<!-- Page Title
+    ============================================= -->
+	<a><img src="{{ url_for('static', filename='images/product/6/banner.jpg') }}"></a>
+	{% include 'sub_menu_case.html' %}
+
+</section><!-- #page-title end -->
+<!-- Content
+		============================================= -->
+		<section id="content">  
+			<div class="content-wrap">
+				<div class="container clearfix">
+
+					<!-- Portfolio Items
+					============================================= -->
+				</div>
+			</div>
+		</section><!-- #content end -->
+
+
+{% endblock %} 

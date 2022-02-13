@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block head %} 
+	{{ super() }} 
+{% endblock %}
+
+{% block content %} 
+
+		<!-- Page Title
+                    
+		============================================= -->
+            <a><img src="{{ url_for('static', filename='images/product/2/banner.jpg') }}" alt="Slider"></a>
+
+
+		</section><!-- #page-title end -->
+		{% include 'sub_menu_case.html' %}
+		
+        
+
+
+<!-- Content
+		============================================= -->
+		<section id="content">  
+			<div class="content-wrap">
+          
+				<div class="container clearfix">
+
+					<!-- Portfolio Items
+					============================================= -->
+					<div id="portfolio" class="portfolio row grid-container gutter-20" data-layout="fitRows">
+						<!-- Portfolio Item: Start -->
+						
+
+                    </div>
+				</div>
+			</div>
+		</section><!-- #content end -->
+
+
+{% endblock%} 

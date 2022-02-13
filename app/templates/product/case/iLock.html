@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+{% block head %} 
+	{{ super() }} 
+{% endblock %}
+
+{% block content %} 
+
+		<!-- Page Title
+                    
+		============================================= -->
+		<a><img src="{{ url_for('static', filename='images/product/3/banner.jpg') }}"></a>
+
+
+	</section><!-- #page-title end -->
+	{% include 'sub_menu_case.html' %}
+        
+
+<!-- Content
+		============================================= -->
+		<section id="content">  
+			<div class="content-wrap">
+				<div class="container clearfix">
+					<!-- Portfolio Items
+					============================================= -->
+
+					<div id="portfolio" class="portfolio row grid-container gutter-20" data-layout="fitRows">
+
+						<!-- 1열  -->
+						<!-- Portfolio Item: Start -->
+						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-media pf-1col">
+							<!-- Grid Inner: Start -->
+							<div class="grid-inner">
+								<!-- Image: Start -->
+								<div class="portfolio-image">
+									<a href="portfolio-single.html">
+										<img src="{{ url_for('static', filename='images/product/3/case/1.jpg') }}" alt="Open Imagination">
+									</a>
+									<!-- Overlay: Start -->
+									<div class="bg-overlay">
+										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+											<!-- Decription: Start -->
+											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                                <h3><a href="portfolio-single-gallery.html">한양대 구리병원 아이락보관함 설치</a></h3>
+											</div>
+
+										</div>
+										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+									</div>
+									<!-- Overlay: End -->
+								</div>
+								<!-- Image: End -->
+							</div>
+							<!-- Grid Inner: End -->
+                            <center><strong>한양대 구리병원 아이락보관함 설치</strong></center>
+						</article>
+                    </div>
+				</div>
+			</div>
+		</section><!-- #content end -->
+
+
+{% endblock%} 

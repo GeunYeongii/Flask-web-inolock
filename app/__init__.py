@@ -20,7 +20,9 @@ def index():
 from app.test import test
 from app.introduction.product import product
 from app.introduction.case import case
+from app.introduction.company import company
 
 app.register_blueprint(test)
 app.register_blueprint(product)
 app.register_blueprint(case)
+app.register_blueprint(company)

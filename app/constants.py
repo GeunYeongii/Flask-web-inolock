@@ -15,3 +15,4 @@ DB_CONNECTION_STR="mysql+pymysql://"+DB_USER_NAME+":"+DB_SECRET_KEY+"@"+DB_ENDPO
 TEST_PREFIX = '/test'
 PROD_PREFIX = '/product'
 CASE_PREFIX = '/case'
+COMPANY_PREFIX = '/company'

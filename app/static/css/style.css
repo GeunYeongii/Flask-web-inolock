@@ -16792,3 +16792,6 @@ label.checkbox { padding-left: 20px; }
 }
 
 
+
+/* 네이버지도 */
+.root_daum_roughmap { margin: auto !important; }

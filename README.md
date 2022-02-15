@@ -1,3 +1,11 @@
+## 📌 Demo site
+Deploying a Flask app Demo on AWS Lambda with Zappa  
+
+🔗 [Demo site link](https://rgb3xxlq7l.execute-api.ap-northeast-2.amazonaws.com/dev)
+
+## 📌 Testing
+![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/82564045/154107881-1042b196-1251-4df7-9014-594e06f4316e.gif)
+
 ## 📌 Structure
 ```
 .
@@ -54,10 +62,6 @@ C:\[Path\to\project]> env\Scripts\activate.bat
   <br />
 </p>
 
-## 📌 Demo site
-Deploying a Flask app Demo on AWS Lambda with Zappa  
-
-🔗 [Demo site link](https://rgb3xxlq7l.execute-api.ap-northeast-2.amazonaws.com/dev)
 
 ## 📌 Deploy update
 ```
